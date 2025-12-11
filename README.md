@@ -77,10 +77,11 @@ Komponen:
 ## 🖼️ Screenshot Program
 
 
-```
-[ <img width="983" height="614" alt="Screenshot 2025-12-11 215854" src="https://github.com/user-attachments/assets/8d274a40-f10b-497f-b883-572cca3f37ac" />
- ]
-```
+
+ <img width="983" height="614" alt="Screenshot 2025-12-11 215854" src="https://github.com/user-attachments/assets/40ddd647-f9c9-440d-b4eb-8f86753124a5" />
+
+ 
+
 
 ---
 
