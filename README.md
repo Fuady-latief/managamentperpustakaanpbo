@@ -69,5 +69,7 @@ Penjelasan lengkap mengenai struktur kode, konsep PBO yang diterapkan, serta dem
 
 ---
 **Anggota:** AQILA RAMDAN FUADY LATIEF L0324005
+
 KHUDZAIFAH HANNAN BURHANUDIN L0324018
+
 NADHIFAL AZHARUDDIYA ATMAJA L0324027
