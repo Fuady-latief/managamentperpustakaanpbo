@@ -115,7 +115,6 @@ Demo tampilan GUI
 🎥 Tonton video penjelasan:
 **[▶️ Tonton Video Penjelasan di Sini](https://youtu.be/E72o7j9E1BQ)**
 
-Penjelasan lengkap mengenai struktur kode, konsep PBO yang diterapkan, serta demo jalannya program dapat dilihat pada video di bawah ini.
 
 
 
@@ -124,6 +123,7 @@ Penjelasan lengkap mengenai struktur kode, konsep PBO yang diterapkan, serta dem
 
 👥 Pembagian Tugas Anggota
 Nama	NIM	Tugas
+
 Aqila Ramdan Fuady Latief	L0324005	Pengkodean GUI, dokumentasi README
 
 Khudzaifah Hannan Burhanudin	L0324018	Analisis materi sebelum & setelah UTS, penyusunan penjelasan konsep, penyempurnaan laporan
