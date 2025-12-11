@@ -59,5 +59,15 @@ Berdasarkan silabus/materi yang dipelajari, berikut adalah konsep-konsep yang **
 3. Jalankan file `GUIIJINNNN.java`.
 4. Jendela aplikasi akan muncul menampilkan tabel perpustakaan.
 
+## 🎬 Video Penjelasan
+
+Penjelasan lengkap mengenai struktur kode, konsep PBO yang diterapkan, serta demo jalannya program dapat dilihat pada video di bawah ini.
+
+**[▶️ Tonton Video Penjelasan di Sini](https://youtu.be/E72o7j9E1BQ)**
+
 ---
-**Anggota:** Nadhifal Azharuddiya Atmaja (L0324027)
+
+---
+**Anggota:** AQILA RAMDAN FUADY LATIEF L0324005
+KHUDZAIFAH HANNAN BURHANUDIN L0324018
+NADHIFAL AZHARUDDIYA ATMAJA L0324027
