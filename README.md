@@ -1,75 +1,122 @@
-Proyek ini adalah implementasi dasar dari aplikasi desktop menggunakan **Java Swing**. Aplikasi ini menampilkan antarmuka grafis sederhana (GUI) yang memuat tabel data dan label judul untuk sistem perpustakaan.
+📚 Aplikasi Perpustakaan – Java Swing
 
-Kode ini dibuat menggunakan *GUI Builder* (NetBeans) dan menunjukkan struktur dasar pemrograman berbasis event dan objek di Java.
+Proyek ini merupakan implementasi aplikasi desktop sederhana menggunakan Java Swing. Program ini menampilkan antarmuka grafis (GUI) berisi judul aplikasi dan tabel data yang dapat digunakan sebagai dasar sistem perpustakaan. Aplikasi dikembangkan menggunakan GUI Builder NetBeans dan menerapkan konsep pemrograman berorientasi objek (OOP) serta materi perkuliahan sebelum dan setelah UTS.
 
-## 📋 Deskripsi Singkat
+📋 Deskripsi Project
 
-Program ini menjalankan sebuah `JFrame` (Jendela utama) yang berisi:
-- **JLabel**: Menampilkan teks judul "PERPUSTAKAAN".
-- **JTable**: Menampilkan tabel kosong (sebagai kerangka) yang dibungkus dalam `JScrollPane`.
+Aplikasi menyediakan elemen-elemen berikut:
 
-## 📚 Implementasi Materi Pembelajaran
+JFrame sebagai jendela utama.
 
-Berdasarkan silabus/materi yang dipelajari, berikut adalah konsep-konsep yang **diterapkan secara langsung** di dalam kode `GUIIJINNNN.java` ini:
+JLabel untuk menampilkan judul "PERPUSTAKAAN".
 
-### 1. Dasar Pemrograman Berorientasi Objek (OOP)
-- **Class, Object, Method:**
-  - `public class GUIIJINNNN` (Class).
-  - `new GUIIJINNNN()` (Object instantiation).
-  - `initComponents()`, `main()` (Method).
-- **Constructor:**
-  - `public GUIIJINNNN() { ... }` digunakan untuk inisialisasi komponen GUI.
-- **Variabel & Reference Types:**
-  - Penggunaan variabel instance seperti `javax.swing.JTable jTable1`.
-  - Penggunaan `static final` untuk Logger.
+JTable dan JScrollPane sebagai kerangka tampilan data buku.
 
-### 2. Struktur Kontrol & Tipe Data
-- **Array dan Collection:**
-  - Digunakan saat mendefinisikan model tabel: `new Object [][] { ... }` dan `new String [] { ... }`.
-- **Kondisional & Looping:**
-  - Terdapat dalam blok `main` (generated code) untuk mengatur *Look and Feel* (Nimbus), menggunakan `for` loop dan `if` statement.
-- **Character dan String:**
-  - Penggunaan tipe data `String` untuk judul kolom tabel dan argumen method main.
+Struktur GUI dibangun menggunakan GroupLayout yang dihasilkan otomatis oleh NetBeans.
 
-### 3. Konsep Lanjutan OOP
-- **Enkapsulasi:**
-  - Variabel komponen dideklarasikan sebagai `private` (misal: `private javax.swing.JTable jTable1`) untuk menyembunyikan detail implementasi dari luar kelas.
-- **Inheritance (Pewarisan):**
-  - Kelas ini mewarisi sifat dari `javax.swing.JFrame` (`public class GUIIJINNNN extends javax.swing.JFrame`).
-- **Polimorfisme:**
-  - Terjadi secara implisit saat objek `GUIIJINNNN` diperlakukan sebagai `JFrame`.
+🚀 Cara Menjalankan Program
+Prasyarat
 
-### 4. Fitur Lanjutan & GUI
-- **Exception Handling:**
-  - Blok `try-catch` di dalam method `main` untuk menangani potensi error saat memuat tema visual (*Look and Feel*).
-- **Multithreading:**
-  - Menggunakan `java.awt.EventQueue.invokeLater(...)` untuk memastikan pembuatan GUI berjalan di atas *Event Dispatch Thread* (EDT), yang merupakan standar keamanan thread dalam Swing.
-- **GUI Programming:**
-  - Penggunaan komponen Swing (`JFrame`, `JTable`, `JScrollPane`, `JLabel`) dan *Layout Manager* (`GroupLayout`).
+JDK 8 atau lebih baru
 
-## 🚀 Cara Menjalankan Program
+Disarankan menggunakan Apache NetBeans untuk kompatibilitas GUI Builder
 
-### Prasyarat
-- Java Development Kit (JDK) 8 atau lebih baru.
-- IDE yang mendukung Java (disarankan **Apache NetBeans** karena kode ini menggunakan layout manager bawaan NetBeans).
+Langkah Menjalankan
 
-### Langkah-langkah
-1. **Clone** atau **Download** repositori ini.
-2. Buka proyek di IDE Anda.
-3. Jalankan file `GUIIJINNNN.java`.
-4. Jendela aplikasi akan muncul menampilkan tabel perpustakaan.
+Clone atau download repository project.
 
-## 🎬 Video Penjelasan
+Buka project di NetBeans.
 
-Penjelasan lengkap mengenai struktur kode, konsep PBO yang diterapkan, serta demo jalannya program dapat dilihat pada video di bawah ini.
+Jalankan file GUIIJINNNN.java.
 
-**[▶️ Tonton Video Penjelasan di Sini](https://youtu.be/E72o7j9E1BQ)**
+Jendela aplikasi akan muncul dengan tampilan tabel perpustakaan.
 
----
+🧠 Implementasi Materi Pembelajaran
 
----
-**Anggota:** AQILA RAMDAN FUADY LATIEF L0324005
+README ini disusun berdasarkan rubrik penilaian, mencakup 2 materi sebelum UTS, 1 materi setelah UTS non-GUI, serta GUI sebagai bagian wajib.
 
-KHUDZAIFAH HANNAN BURHANUDIN L0324018
+🎓 1. Materi Sebelum UTS
+A. Pemrograman Berorientasi Objek (OOP)
 
-NADHIFAL AZHARUDDIYA ATMAJA L0324027
+Konsep OOP diterapkan melalui:
+
+Class: public class GUIIJINNNN
+
+Object: new GUIIJINNNN()
+
+Method: initComponents(), main()
+
+Constructor: digunakan untuk menginisialisasi komponen GUI
+
+Reference Types: komponen Swing seperti JTable, JLabel
+
+B. Array & Collection
+
+Digunakan untuk mendefinisikan model data tabel:
+
+new Object[][] { ... }
+new String[] { "Judul", "Pengarang", "Tahun" }
+
+C. Variabel & Tipe Data String
+
+Penggunaan String untuk teks GUI, kolom tabel, dan parameter.
+
+D. Exception Handling
+
+Blok try–catch digunakan saat menetapkan Look and Feel (Nimbus).
+
+🎓 2. Materi Setelah UTS (Non-GUI)
+Multithreading – Event Dispatch Thread (EDT)
+
+Pembuatan dan penampilan GUI ditempatkan di dalam:
+
+java.awt.EventQueue.invokeLater(new Runnable() {
+    public void run() {
+        new GUIIJINNNN().setVisible(true);
+    }
+});
+
+
+Ini memastikan GUI berjalan aman pada thread khusus Swing.
+
+🖼️ 3. Implementasi GUI
+
+Komponen yang digunakan:
+
+JFrame – komponen utama aplikasi
+
+JTable – penampil data
+
+JScrollPane – memungkinkan tabel di-scroll
+
+JLabel – judul aplikasi
+
+GroupLayout – pengaturan layout hasil generator GUI Builder
+
+GUI bersifat sederhana, bersih, dan dapat dikembangkan menjadi aplikasi perpustakaan penuh.
+
+🖼️ 4. Screenshot Program
+
+(Tambahkan screenshot setelah program dijalankan)
+
+[ <img width="983" height="614" alt="image" src="https://github.com/user-attachments/assets/8abd8841-5322-42da-936d-1a7c7dbf5e20" />
+]
+
+🎬 5. Video Penjelasan
+
+Video menjelaskan:
+
+Struktur kode
+
+Materi kuliah yang diterapkan
+
+Demo tampilan GUI
+
+🎥 Tonton video penjelasan:
+https://youtu.be/E72o7j9E1BQ
+
+👥 Pembagian Tugas Anggota
+Nama	NIM	Tugas
+Aqila Ramdan Fuady Latief	L0324005	Pengkodean GUI, dokumentasi README
+Khudzaifah Hannan Burhanudin	L0324018	Analisis materi sebelum & setelah UTS, penyusunan penjelasan konsep, penyempurnaan laporan
+Nadhifal Azharuddiya Atmaja	L0324027	Penyusunan video presentasi dan struktur program
