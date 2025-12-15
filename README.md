@@ -27,7 +27,7 @@ Aplikasi dirancang agar alur penggunaan mudah dipahami dan setiap aksi pengguna 
 ### Langkah Menjalankan
 1. Clone atau download repository project ini
 2. Buka project menggunakan Apache NetBeans
-3. Jalankan file **GUIIJINNNN.java**
+3. Jalankan file **IJINNNN.java**
 4. Aplikasi akan menampilkan jendela GUI sistem peminjaman buku
 
 ---
